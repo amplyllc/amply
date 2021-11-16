@@ -19,6 +19,9 @@ img {
   transform: scale(0.97);
   @include transition-ease;
 }
+.shadow {
+  box-shadow: -5px 5px 5px rgba(0,0,0,.2);
+}
 
 .animate {
     &.fadeIn {

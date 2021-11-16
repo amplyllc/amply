@@ -1,0 +1,49 @@
+// ---------------------------------
+// map.get($variable, "value")
+// ---------------------------------
+
+// ===================
+// colors
+// ===================
+$theme-colors: (
+  'primary': #f9b9f2, 
+  'secondary': #735cdd,
+  'accent': #ffbe0b,
+  'background': #82204a,
+  'foreground': #191919,
+  'white': #ffff,
+  'black': #0F1A20,
+  'grey': #afafaf,
+);
+
+// ===================
+// font
+// ===================
+$fonts: (
+  'heading': 'DDINExpDINExpBold',
+  'body': 'PoppinsRegular',
+  'anchor': 'PoppinsRegular',
+  'secondary': 'DDINCondensedDINCondensedBold',
+);
+
+// ===================
+// media
+// ===================
+$media: (
+  'small': 420px,
+  'medium': 768px,
+  'large': 1024px,
+  'x-large': 1600px,
+);
+
+// ===================
+// z-indexes
+// ===================
+$z-indexes: (
+  'modal': 5000,
+  'dropdown': 4000,
+  'default': 1,
+  'below': -1,
+);
+
+

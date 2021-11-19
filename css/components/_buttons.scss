@@ -69,6 +69,7 @@
 .button-3 {
   background-color: map.get($theme-colors, "accent");
   color: map.get($theme-colors, "black");
+  border: map.get($theme-colors, "accent");
   border-radius: 100px;
   width: 10rem;
   text-align: center;

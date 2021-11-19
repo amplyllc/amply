@@ -1,0 +1,14 @@
+#about {
+    .text {
+        
+        p {
+            max-width: 600px;
+        }
+    }
+    .img-div {
+        max-width: 600px;
+        @include media-sm-md {
+            margin-right: 2rem;
+        }
+    }
+}

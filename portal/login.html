@@ -13,7 +13,7 @@
 </head>
 <body>
     <section class="w-100 vh100 bg-background d-flex flex-column j-c-c a-i-c">
-        <form id="login-form" style="border-radius: 10px;" class="animate fadeIn shadow d-flex flex-column default bg-white py-2 px-3 mx-2 text-center" onsubmit="return logIn()">
+        <form id="login-form" style="border-radius: 10px;" class="animate fadeIn shadow d-flex flex-column default bg-white py-2 px-3 mx-2 text-center">
             <h1 class="text-1">Login</h1>
             <div class="d-flex flex-column a-i-s py-1 mt-1">
                 <h4 class="text-primary pb-1">Email</h4>
@@ -27,7 +27,7 @@
                 <p class="text-1">Incorrect password</p>
             </div>
             <div id="btn" class="d-flex flex-column default py-1">
-                <button class="button-3 text-white shrink py-05" type="submit">Login</button>
+                <button class="button-3 text-white shrink py-05" type="submit" onclick="return logIn()">Login</button>
             </div>
         </form>
     </section>

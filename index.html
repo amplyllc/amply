@@ -313,7 +313,7 @@
     <!-- *** contact *** -->
     <section id="contact" class="d-flex flex-column default my-5 py-5">
       <h2 class="text-primary mb-3">Contact</h2>
-      <form id="contact-form" name="contact-home" class="w-90" action="/thankyou" data-netlify-recaptcha="true" netlify>
+      <form id="contact-form" name="contact-home" class="w-90" action="/thankyou" netlify-honeypot="bot-field" netlify>
         <div class="d-flex px-1 py-05">
           <input class="w-50 me-1" type="text" name="name" class="form-control" placeholder="Your name" aria-label="Full name" required>
           <input class="w-50" type="email" name="email" placeholder="Your email" required>
@@ -324,7 +324,11 @@
         <div class="d-flex px-1 py-05">
           <textarea class="w-100 mt-1" name="message" rows="3" placeholder="Your message" required></textarea>
         </div>
-        <div data-netlify-recaptcha="true" class="d-flex default"></div>
+        <p class="hide">
+          <label>
+            Don’t fill this out if you’re human: <input name="bot-field"/>
+          </label>
+        </p>
         <div class="d-flex default px-1 mt-1">
           <button class="button-4 half" type="submit">Send</button>
         </div>
